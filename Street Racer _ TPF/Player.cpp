@@ -86,3 +86,12 @@ bool Player::update()
 		}
 	}	
 }
+
+void Player::setLimit(int x0, int x1,int y0, int y1)
+{
+	maxLimitX = x1;
+	maxLimitY = y1;
+	minLimitX = x0;
+	minLimitY = y0;	
+}
+
